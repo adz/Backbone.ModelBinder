@@ -252,9 +252,9 @@
                     boundEl = elementBinding.boundEls[boundElCount];
 
                     if(!boundEl._isSetting){
-                        if(!convertedValue){
+                        //if(!convertedValue){
                             convertedValue = this._getConvertedValue(Backbone.ModelBinder.Constants.ModelToView, elementBinding, value);
-                        }
+                        //}
 
                         this._setEl($(boundEl), elementBinding, convertedValue);
                     }
